@@ -39,8 +39,8 @@
 
 .banner {
     display: flex;
-    align-items: end;
-    justify-content: end;
+    align-items:flex-end;
+    justify-content:space-between;
     margin: 130px 150px;
 }
 
@@ -49,10 +49,10 @@
     font-weight: bold;
 
 }
-
 .banner img {
     width: 570px;
     height: 355px;
+    object-fit: contain;
 }
 
 .orange {
@@ -61,8 +61,8 @@
 
 .banner-description {
     font-size: 22px;
-    color: rgb(0, 0, 0);
-    opacity: 0.5;
+   color: #8987A1;
+   margin: 0;
 }
 
 main {
